@@ -4,7 +4,7 @@ metadata:
   annotations:
     kompose.cmd: kompose convert
     kompose.service.type: LoadBalancer
-    kompose.version: 1.17.0 (a74acad)
+    kompose.version: 1.18.0 (HEAD)
   creationTimestamp: null
   labels:
     io.kompose.service: bulletinapi
@@ -23,7 +23,7 @@ spec:
       - env:
         - name: GET_HOSTS_FROM
           value: dns
-        image: kisulken/bulletinapi:v1
+        image: albaizzz/bulletinapi:v1
         name: bulletinapi
         ports:
         - containerPort: 8080

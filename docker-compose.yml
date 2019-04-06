@@ -18,7 +18,7 @@ services:
 
   bulletinapi:
     container_name: bulletinapi
-    image: kisulken/bulletinapi:v1
+    image: albaizzz/bulletinapi:v1
     hostname: bulletinapi
     build:
       context: .
